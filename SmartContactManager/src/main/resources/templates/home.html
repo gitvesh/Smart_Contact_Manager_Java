@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Contact Manager</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 font-sans leading-normal tracking-normal">
+
+<!-- Navbar -->
+<header class="bg-blue-600 text-white">
+    <div class="container mx-auto flex justify-between items-center py-4 px-6">
+        <h1 class="text-2xl font-bold">Smart Contact Manager</h1>
+        <nav>
+            <a href="#features" class="px-4 py-2 hover:text-gray-300">Features</a>
+            <a href="#how-it-works" class="px-4 py-2 hover:text-gray-300">How It Works</a>
+            <a href="#contact" class="px-4 py-2 hover:text-gray-300">Contact Us</a>
+            <a href="/login" class="bg-white text-blue-600 px-4 py-2 rounded hover:bg-gray-100">Login</a>
+        </nav>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="bg-blue-500 text-white py-20">
+    <div class="container mx-auto text-center">
+        <h2 class="text-4xl font-extrabold mb-4">Simplify Your Contact Management</h2>
+        <p class="text-xl mb-6">Organize, secure, and access your contacts effortlessly with our smart and intuitive tool.</p>
+        <a href="/signup" class="bg-white text-blue-600 px-6 py-3 rounded shadow-lg hover:bg-gray-100 transition duration-300">Get Started Now</a>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section id="features" class="py-16 bg-gray-100">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">Key Features</h2>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Feature 1 -->
+            <div class="bg-white p-6 rounded shadow-lg">
+                <img src="https://via.placeholder.com/150" alt="Feature 1" class="mx-auto mb-4">
+                <h3 class="font-bold text-lg"><a data-th-href="@{/login}">Login</a></h3>
+                <p class="text-gray-600">Keep your contacts safe with robust authentication.</p>
+            </div>
+            <!-- Feature 2 -->
+            <div class="bg-white p-6 rounded shadow-lg">
+                <img src="https://via.placeholder.com/150" alt="Feature 2" class="mx-auto mb-4">
+                <h3 class="font-bold text-lg"><a data-th-href="@{/user/contact/myContacts}">Organize Contacts</a></h3>
+                <p class="text-gray-600">Easily add, edit, and group your contacts.</p>
+            </div>
+            <!-- Feature 3 -->
+            <div class="bg-white p-6 rounded shadow-lg">
+                <img src="https://via.placeholder.com/150" alt="Feature 3" class="mx-auto mb-4">
+                <h3 class="font-bold text-lg">Mailing Service is Available</h3>
+                <p class="text-gray-600"><button data-th-href="@{/user/mail}"></button></p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- How It Works Section -->
+<section id="how-it-works" class="py-16 bg-white">
+    <div class="container mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-8">How It Works</h2>
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+            <div class="p-6">
+                <h3 class="font-bold text-lg">1. Sign Up</h3>
+                <p class="text-gray-600">Create your account in minutes.</p>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-lg">2. Add Contacts</h3>
+                <p class="text-gray-600">Import or manually add your contacts.</p>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-lg">3. Organize</h3>
+                <p class="text-gray-600">Group and label your contacts effortlessly.</p>
+            </div>
+            <div class="p-6">
+                <h3 class="font-bold text-lg">4. Access Anytime</h3>
+                <p class="text-gray-600">Access your contacts from any device.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-blue-600 text-white py-6">
+    <div class="container mx-auto text-center">
+        <p>&copy; 2025 Smart Contact Manager. All Rights Reserved.</p>
+        <a href="#" class="hover:text-gray-300">Privacy Policy</a> |
+        <a href="#" class="hover:text-gray-300">Terms of Service</a>
+    </div>
+</footer>
+
+</body>
+</html>
